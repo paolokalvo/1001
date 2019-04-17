@@ -1,0 +1,12 @@
+minutos_usados = ? 
+preço = 0 
+
+if minutos_usados < 200:
+   preço = 0.20
+else: 
+  if minutos_usados < 400:
+     preço = 0.18
+  else: #if minutos_usados > 400
+     preço = 0.15
+      
+  
